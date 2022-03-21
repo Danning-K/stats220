@@ -33,11 +33,13 @@ library(magick)
 # Giving image1 name
 pig_in_blue <- image_read(path = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlNRJ5Q4doVtUnS2Dm50Dj9pnlQXAo3Add0A&usqp=CAU")%>%
   image_scale(300)%>%
+# Annotating on the image1  
   image_annotate(text = "Hi", size = 20, color = "#FDFEFE")
 
 # Giving image2 name
 pig_in_red <- image_read("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSreyiMnzZPLic9Paopz3DSRODU_PMfUtyrA&usqp=CAU")%>%
   image_scale(300)%>%
+# Annotating on the image2
   image_annotate(text = "Good morning",size = 20, color = "#FDFEFE")
 
 # Creating a image and annotating it
