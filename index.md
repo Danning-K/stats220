@@ -30,29 +30,35 @@ I made a meme by using the R package [{magick}](https://cran.r-project.org/web/p
 ```r
 library(magick)
 
+# Giving image1 name
 pig_in_blue <- image_read(path = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlNRJ5Q4doVtUnS2Dm50Dj9pnlQXAo3Add0A&usqp=CAU")%>%
   image_scale(300)%>%
   image_annotate(text = "Hi", size = 20, color = "#FDFEFE")
 
+# Giving image2 name
 pig_in_red <- image_read("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSreyiMnzZPLic9Paopz3DSRODU_PMfUtyrA&usqp=CAU")%>%
   image_scale(300)%>%
   image_annotate(text = "Good morning",size = 20, color = "#FDFEFE")
 
+# Creating a image and annotating it
 intro1 <- image_blank(width = 300, height = 300, color = "#CCCCFF")%>%
   image_annotate(text = "I'm wearing blue", color = "#FDFEFE", size = 30, gravity = "center")
 
 intro2 <- image_blank(width = 300, height = 300, color = "#6495ED")%>%
   image_annotate(text = "I'm wearing red",  color = "#FDFEFE", size = 30, gravity = "center")
 
+# Combining the corresponding images
 blue_pig <- c(pig_in_blue, intro1) %>%
   image_append(stack = TRUE)
 
 red_pig <- c(pig_in_red, intro2) %>%
   image_append(stack = TRUE)
 
+# Combining together
 meme = c(blue_pig, red_pig)%>%
   image_append()
 
+# Saving the image
 image_write(meme, "my_meme.png")
 
 ```
