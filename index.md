@@ -18,7 +18,7 @@ Her name is **Nicki Minaj**. I really love her songs!
 1. *Chun-li*
 2. *High school*
 
-These two songs are my favorite. You guys can visit to the audio here of [**Chun-li**](https://www.youtube.com/watch?v=XRjZypFORxM) and [**High school**](https://www.youtube.com/watch?v=JTdcgD68J5M) respectively👂🏼
+These two songs are my favorite. You guys can visit to the audios here of [**Chun-li**](https://www.youtube.com/watch?v=XRjZypFORxM) and [**High school**](https://www.youtube.com/watch?v=JTdcgD68J5M) respectively👂🏼
 
 ## `R` ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/RStudio_logo_flat.svg/1280px-RStudio_logo_flat.svg.png)
 I made a meme by using the R package [{magick}](https://cran.r-project.org/web/packages/magick/vignettes/intro.html):
