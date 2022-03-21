@@ -47,7 +47,7 @@ intro1 <- image_blank(width = 300, height = 300, color = "#CCCCFF")%>%
 intro2 <- image_blank(width = 300, height = 300, color = "#6495ED")%>%
   image_annotate(text = "I'm wearing red",  color = "#FDFEFE", size = 30, gravity = "center")
 
-# Combining the corresponding images
+# Combining the images with corresponding annotations
 blue_pig <- c(pig_in_blue, intro1) %>%
   image_append(stack = TRUE)
 
