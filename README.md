@@ -5,4 +5,4 @@ Hi, there. `This is my stats220 repo.`
 
 `It's my first time making own pages online! I make this repo for my first assignment of stats220, which is quite exciting.`
 
-If you are interested in my repo, please visit [my website](https://danning-k.github.io/stats220/) here.
+If you are interested in my repo, please visit [my website](https://danning-k.github.io/stats220/) here 😎
